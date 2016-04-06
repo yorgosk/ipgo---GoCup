@@ -1,7 +1,7 @@
 @NerdLabs Productions Ltd.
 
-Agapiou Marinos  1115201400002
-Kamaras Georgios 1115201400058
+Agapiou Marinos
+Kamaras Georgios
 
 This project is a very straight-forward team work. Most of the code was written with both members working in the same computer, simultaneously. If we could separate 
 something, that would be these functions:
@@ -22,9 +22,9 @@ make
 To run the project:
 Our command line arguments are expected to go as follows:
 
-$ ./ipgo.002.058 -seed <seed_number> -jap -superko
+$ ./ipgo.cup -seed <seed_number> -jap -superko
 
-./ipgo.002.058 part is necessary
+./ipgo.cup part is necessary
 -seed <seed_number> part is necessary
 -jap part is optional
 -superko part is optional
