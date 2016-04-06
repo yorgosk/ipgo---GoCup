@@ -15,10 +15,10 @@ OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 $(ODIR)/%.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-ipgo.002.058: $(OBJ)
+ipgo.cup: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS)
 
 .PHONY: clean
 
 clean:
-	rm -f ipgo.002.058 $(ODIR)/*.o *~ core $(INCDIR)/*~ 
+	rm -f ipgo.cup $(ODIR)/*.o *~ core $(INCDIR)/*~ 
